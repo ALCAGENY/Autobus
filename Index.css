@@ -1,0 +1,90 @@
+body {
+    background-image: url(./Camion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Para que la imagen de fondo cubra toda la pantalla */
+  }
+
+.Contenedor2{
+    display: flex;
+    gap:8%;
+    padding: 0% 5%;
+}
+
+.Contenedor-3{
+    background: rgba(255, 255, 255, 0.535);
+    padding: 10% 10%;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Contenedor-4{
+    background: rgba(255, 255, 255, 0.535);
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Contenedor-5{
+    background: rgba(255, 255, 255, 0.535);
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Contenedor-6{
+    background: rgba(255, 255, 255, 0.535);
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Datos-Opciones{
+    
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Datos{
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;  border-radius: 10px;
+    border: none;
+    background-color: rgb(101, 165, 192);
+    color: white;
+    font-size: large;
+}
+
+.Boton{
+   padding: 5%;
+   border-radius: 10px;
+   border: none;
+   background-color: rgb(101, 165, 192);
+   color: white;
+   font-size: large;
+}
+
+.Boton:hover {
+    background-color: rgb(148, 188, 205);
+    cursor: pointer;
+  }
+
+  .Datos:hover {
+    background-color: rgba(148, 188, 205);
+    cursor: pointer;
+  }
+
+.Textos{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    list-style-type: none;
+}
+
+.TextosLista{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    list-style-type: none;
+}
+
+.FondosLetras{
+    font-family: Arial, Helvetica, sans-serif;
+}

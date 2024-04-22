@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Index.css" />
+    <title>Terminal.Autobus</title>
+  </head>
+  <body class="bg">
+    <h1 class="Textos">Compra de boletos de autobús</h1><br><br><br>
+    <div class="Contenedor1">
+      <div class="Contenedor2">
+        <form id="formulario">
+            <div class="Contenedor-3">
+                <label class="Datos-Opciones" for="nombre">Nombre:</label><br/>
+
+                <input class="Datos" type="text" id="nombre" required /><br /><br />
+      
+                <label class="Datos-Opciones" for="apellidoPaterno">Apellido Paterno:</label ><br />
+      
+                <input class="Datos" type="text" id="apellidoPaterno" required/><br /><br />
+      
+                <label class="Datos-Opciones" for="apellidoMaterno">Apellido Materno:</label><br />
+      
+                <input class="Datos" type="text" id="apellidoMaterno" required/><br /><br />
+      
+                <label class="Datos-Opciones" for="edad">Edad:</label><br />
+      
+                <input class="Datos" type="number" id="edad" required /><br /><br />
+      
+                <label class="Datos-Opciones" for="asiento">Número de Asiento:</label><br />
+      
+                <input class="Datos" type="number" id="asiento" min="1" max="50" required/><br /><br />
+      
+                <button class="Boton" type="submit">Comprar Boleto</button>
+            </div>
+        </form>
+        <div class="Contenedor-4">
+            <h2 class="Textos">Lista de Pasajeros</h2>
+            <ul class="TextosLista FondosLetras" id="listaPasajeros"></ul>
+        </div>
+
+        <div class="Contenedor-5">
+          <h2 class="Textos">Total de Asientos Vendidos</h2>
+          <p class="FondosLetras" id="totalAsientos"></p>
+        </div>
+
+        <div class="Contenedor-6">
+          <h2 class="Textos">Dinero Total</h2>
+          <p class="FondosLetras" id="dineroRecaudado">$</p>
+        </div>
+
+        <script src="./Java.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
